@@ -1,0 +1,86 @@
+{
+  "spinnerMy": {
+    "promptMy": "--- Please select related action ---",
+    "itemsMy": [
+      {
+        "itemMy": "Laptop"
+      },
+      {
+        "itemMy": "Desktop"
+      },
+      {
+        "itemMy": "Mobile device"
+      },
+      {
+        "itemMy": "Keyboard"
+      },
+      {
+        "itemMy": "Mouse"
+      },
+      {
+        "itemMy": "Monitor"
+      },
+      {
+        "itemMy": "Others"
+      }
+    ]
+  },
+  "textsMy": [
+    {
+      "name": "info_1",
+      "text": "Before you will send a new ticket, please check the following steps and links."
+    },
+    {
+      "name": "info_2",
+      "text": "Preferred steps to try."
+    },
+    {
+      "name": "email",
+      "text": "Contact email addresses (mandatory)"
+    },
+    {
+      "name": "phone",
+      "text": "Contact phone addresses (optional)"
+    },
+    {
+      "name": "purpose",
+      "text": "What purpose it is intended to meet by the new LAPTOP? (mandatory)"
+    },
+    {
+      "name": "improvements",
+      "text": "Responsible manager for potential improvements (full name and department)? (mandatory)"
+    },
+    {
+      "name": "fields_filled",
+      "text": "All of the mandatory fields have to be filled properly."
+    }
+  ],
+  "checkboxMy": [
+    {
+      "name": "under",
+      "text": "If you need to buy equipment which is under 200 EUR you only need to have approved the purchase by email of manager from your departure."
+    },
+    {
+      "name": "more_than",
+      "text": "If you need to buy equipment which is more than 200 EUR you always have to ask your manager to fill Approval form."
+    },
+    {
+      "name": "purchase",
+      "text": "Purchase of a new LAPTOP usually takes two weeks."
+    }
+  ],
+  "buttonsMy": [
+    {
+      "name": "attachment",
+      "text": "Add attachment"
+    },
+    {
+      "name": "ticket",
+      "text": "Send ticket"
+    },
+    {
+      "name": "cancel",
+      "text": "Cancel form"
+    }
+  ]
+}
