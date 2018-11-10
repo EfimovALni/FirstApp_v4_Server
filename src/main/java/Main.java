@@ -28,6 +28,8 @@ public class Main {
             System.out.println(modelSecond.getButtonsMy().get(i));
         }
 
+        System.out.println(modelSecond.getSpinnerMy());
+
     }
 }
 
