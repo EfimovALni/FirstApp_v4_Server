@@ -23,13 +23,28 @@ public class Main {
         modelSecond = gson.fromJson(reader, SecondScreenModel.class);
         get("/new", (request, response) -> modelSecond, gson::toJson);
 
-
-        for (int i = 0; i < modelSecond.getButtonsMy().size(); i++) {
-            System.out.println(modelSecond.getButtonsMy().get(i));
+/** C.1. Start. Only for testing */
+        System.out.println("\n*** Spinner ***");
+        System.out.println(modelSecond.getSpinnerMy().getPromptMy());
+        for (int i = 0; i < modelSecond.getSpinnerMy().getItemsMy().size(); i++) {
+            System.out.println(i + ". " + modelSecond.getSpinnerMy().getItemsMy().get(i).getItemMy());
         }
 
-        System.out.println(modelSecond.getSpinnerMy());
+        System.out.println("\n*** Texts ***");
+        for (int i = 0; i < modelSecond.getTextsMy().size(); i++) {
+            System.out.println(i + ". " + modelSecond.getTextsMy().get(i).getText());
+        }
 
+        System.out.println("\n*** Checkbox ***");
+        for (int i = 0; i < modelSecond.getCheckboxMy().size(); i++) {
+            System.out.println(i + ". " + modelSecond.getCheckboxMy().get(i).getText());
+        }
+
+        System.out.println("\n*** Buttons ***");
+        for (int i = 0; i < modelSecond.getButtonsMy().size(); i++) {
+            System.out.println(i + ". " + modelSecond.getButtonsMy().get(i).getText());
+        }
+/** C.1. End. Only for testing */
     }
 }
 
